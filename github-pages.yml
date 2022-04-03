@@ -1,0 +1,38 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: [ main, ci ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3.1.0
+    
+    - name: Install less
+      run: |
+        npm install -g less
+        for file in $(find . -type f -name "*.less");
+        do
+          lessc "$file" "${file%.*}.css"
+        done
+    
+    - name: "create website"
+      run: |
+        ls -la
+        mkdir out 
+        cp *.html out/
+        cp *.css out/
+        
+    - name: "publish via GitHub Pages"
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
+        commit_message: ${{ github.event.head_commit.message }}
+        enable_jekyll: false
+            
