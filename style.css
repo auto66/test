@@ -1,6 +1,6 @@
 /*Custom background*/
 body {
-  background-image: url(images/0/02/Bg-cover-right.png), url(images/9/95/Bg-cover-left.png), url(images/7/7e/Bg-cover-bottom.png), url(images/d/d5/NewMainBg.jpg);
+  background-image: url(https://wiki.the-west.de/images/0/02/Bg-cover-right.png), url(https://wiki.the-west.de/images/9/95/Bg-cover-left.png), url(https://wiki.the-west.de/images/7/7e/Bg-cover-bottom.png), url(https://wiki.the-west.de/images/d/d5/NewMainBg.jpg);
 }
 #document-wrapper {
   max-width: 1250px;
@@ -108,13 +108,13 @@ div.mw-body table {
   margin-top: 0.4em;
 }
 table.jquery-tablesorter th.headerSort {
-  background-image: url(images/a/a6/Sort_both.png) !important;
+  background-image: url(https://wiki.the-west.de/images/a/a6/Sort_both.png) !important;
 }
 table.jquery-tablesorter th.headerSortDown {
-  background-image: url(images/f/f3/Sort_down.png) !important;
+  background-image: url(https://wiki.the-west.de/images/f/f3/Sort_down.png) !important;
 }
 table.jquery-tablesorter th.headerSortUp {
-  background-image: url(images/8/81/Sort_up.png) !important;
+  background-image: url(https://wiki.the-west.de/images/8/81/Sort_up.png) !important;
 }
 table tr > th {
   font-weight: bold;
@@ -332,10 +332,10 @@ span.extraordinary {
   vertical-align: middle;
 }
 .valentine .wof_reward {
-  background: url(images/b/b1/Reward_valentine.png) center no-repeat;
+  background: url(https://wiki.the-west.de/images/b/b1/Reward_valentine.png) center no-repeat;
 }
 .dayofdead .wof_reward {
-  background: url(images/b/b1/Reward_dayofdead.png) center no-repeat;
+  background: url(https://wiki.the-west.de/images/b/b1/Reward_dayofdead.png) center no-repeat;
 }
 .wof_reward > div.item_container {
   margin: 10px;
@@ -370,7 +370,7 @@ span.extraordinary {
 }
 .navbar_bgl,
 .navbar_bgr {
-  background: url(images/7/78/Navbar.png) no-repeat;
+  background: url(https://wiki.the-west.de/images/7/78/Navbar.png) no-repeat;
   position: absolute;
   height: 100%;
 }
@@ -426,7 +426,7 @@ div.tw_bg_tl,
 div.tw_bg_tr,
 div.tw_bg_bl,
 div.tw_bg_br {
-  background-image: url(images/6/68/Popup.png);
+  background-image: url(https://wiki.the-west.de/images/6/68/Popup.png);
   position: absolute;
   z-index: -1;
 }
@@ -473,12 +473,12 @@ div.popup_window {
 div.item_container.wearM {
   height: 93px;
   width: 94px;
-  background: url(images/c/c8/Item_box_wearM.png);
+  background: url(https://wiki.the-west.de/images/c/c8/Item_box_wearM.png);
 }
 div.item_container.wearL {
   height: 138px;
   width: 95px;
-  background: url(images/0/09/Item_box_wearL.png);
+  background: url(https://wiki.the-west.de/images/0/09/Item_box_wearL.png);
 }
 div.item_container.wearM > img,
 div.item_container.wearL > img {
@@ -489,7 +489,7 @@ div.item_container {
   height: 79px;
   width: 79px;
   position: relative;
-  background: url(images/e/ec/Item_box.png) no-repeat;
+  background: url(https://wiki.the-west.de/images/e/ec/Item_box.png) no-repeat;
   display: inline-block;
   vertical-align: middle;
 }
@@ -528,7 +528,7 @@ div.popup_contents * {
   margin: 0;
 }
 div.popup_image {
-  background: url(images/e/ec/Item_box.png);
+  background: url(https://wiki.the-west.de/images/e/ec/Item_box.png);
   width: 79px;
   height: 79px;
   margin: auto;
@@ -541,7 +541,7 @@ div.popup_image img {
   width: 124px;
   height: 6px;
   margin: 5px auto !important;
-  background: url(images/c/c1/Divider.png);
+  background: url(https://wiki.the-west.de/images/c/c1/Divider.png);
 }
 .popup_name {
   font-size: 13px;
@@ -587,7 +587,7 @@ div.popup_image img {
   max-width: 45px;
 }
 .item_req {
-  background: url(images/e/ec/Item_box.png);
+  background: url(https://wiki.the-west.de/images/e/ec/Item_box.png);
   position: relative;
   display: inline-block;
 }
@@ -675,7 +675,7 @@ div.tt_bg_tl,
 div.tt_bg_tr,
 div.tt_bg_bl,
 div.tt_bg_br {
-  background-image: url(images/f/fc/Tooltip_bg.png);
+  background-image: url(https://wiki.the-west.de/images/f/fc/Tooltip_bg.png);
   position: absolute;
   z-index: -1;
 }
@@ -703,7 +703,7 @@ div.tt_bg_br {
   left: 50%;
   margin-top: -4px;
   margin-left: -11px;
-  background-image: url(images/3/32/Tooltip_arrow.png);
+  background-image: url(https://wiki.the-west.de/images/3/32/Tooltip_arrow.png);
   width: 22px;
   height: 11px;
 }
@@ -757,10 +757,10 @@ div.tt_bg_br {
   left: 1px;
 }
 .item_flag.eqp {
-  background: url(images/6/63/Product_Eqp.png);
+  background: url(https://wiki.the-west.de/images/6/63/Product_Eqp.png);
 }
 .item_flag.inv {
-  background: url(images/7/70/Product_Inv.png);
+  background: url(https://wiki.the-west.de/images/7/70/Product_Inv.png);
 }
 .number {
   position: absolute;
@@ -800,7 +800,7 @@ div.tt_bg_br {
 #input_level,
 #input_search {
   display: inline-block;
-  background: url(images/a/a7/Textfield.png) top left no-repeat;
+  background: url(https://wiki.the-west.de/images/a/a7/Textfield.png) top left no-repeat;
   height: 30px;
   width: 12px;
 }
@@ -809,7 +809,7 @@ div.tt_bg_br {
   right: 250px;
 }
 input.west {
-  background: url(images/a/a7/Textfield.png) top right no-repeat;
+  background: url(https://wiki.the-west.de/images/a/a7/Textfield.png) top right no-repeat;
   height: 30px;
   width: 180px;
   margin-left: 12px;
@@ -831,7 +831,7 @@ input.west {
   background: #FFEECC;
 }
 .set_icon > div {
-  background: url(images/4/46/Set_icons_sprite.png?) no-repeat;
+  background: url(https://wiki.the-west.de/images/4/46/Set_icons_sprite.png?) no-repeat;
   width: 48px;
   height: 48px;
   position: absolute;
@@ -865,7 +865,7 @@ input.west {
   display: inline-block;
   width: 15px;
   height: 12px;
-  background: url(images/4/4b/Item_level.png);
+  background: url(https://wiki.the-west.de/images/4/4b/Item_level.png);
   margin-right: 2px;
 }
 .level {
@@ -875,7 +875,7 @@ input.west {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background: url(images/c/ca/Upgrade_icons.png) 0 12px;
+  background: url(https://wiki.the-west.de/images/c/ca/Upgrade_icons.png) 0 12px;
   margin: 0 2px 0 1px;
   cursor: pointer;
 }
@@ -886,7 +886,7 @@ input.west {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background: url(images/c/ca/Upgrade_icons.png) 12px 12px;
+  background: url(https://wiki.the-west.de/images/c/ca/Upgrade_icons.png) 12px 12px;
   margin: 0 0 0 2px;
   cursor: pointer;
 }
