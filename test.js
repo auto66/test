@@ -27,8 +27,8 @@ BattleCalc.getWearBonus = function () {
       var g = ItemManager.get(b[f]);
       'left_arm' === g.type &&
         (c = {
-          damage_max: (g.getDamage(Character).max)*6,
-          damage_min: (g.getDamage(Character).min)*6,
+          damage_max: (g.getDamage(Character).max)*1.1,
+          damage_min: (g.getDamage(Character).min)*1.1,
         });
       null !== g.set &&
         (e.hasOwnProperty(g.set)
@@ -163,7 +163,7 @@ BattleCalc.coreCalc = function (a, c) {
   e = a.bonus.damage;
   var h = a.damage,
     l =
-      'worker' == a.charClass ? (a.premium ? 1.4 : 1.2) : 1,
+      'worker' == a.charClass ? (a.premium ? 1.6 : 1.2) : 1,
     n = a.skills.leadership,
     m = Math.pow(
       n *
@@ -200,7 +200,7 @@ BattleCalc.coreCalc = function (a, c) {
         2
       ),
       resistance: BattleCalc.round(
-        (300 * a.skills.hide) / k + u,
+        ((300 * a.skills.hide) / k + u) + 25,
         2
       ),
     },
@@ -220,7 +220,7 @@ BattleCalc.coreCalc = function (a, c) {
         2
       ),
       resistance: BattleCalc.round(
-        (300 * a.skills.pitfall) / k + u,
+        ((300 * a.skills.pitfall) / k + u) + 25,
         2
       ),
     },
